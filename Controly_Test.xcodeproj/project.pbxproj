@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5DF7F431D4D8BF0007709A4 /* BarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF7F421D4D8BF0007709A4 /* BarManager.swift */; };
+		FA14981B1D4B8425001A7277 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14981A1D4B8425001A7277 /* GraphView.swift */; };
+		FA14981D1D4B8430001A7277 /* GraphView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA14981C1D4B8430001A7277 /* GraphView.xib */; };
+		FA14981F1D4B9284001A7277 /* GraphBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14981E1D4B9284001A7277 /* GraphBarView.swift */; };
+		FA1498211D4B93AD001A7277 /* BarObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1498201D4B93AD001A7277 /* BarObject.swift */; };
 		FAEE269E1D490C8E00C4EE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE269D1D490C8E00C4EE03 /* AppDelegate.swift */; };
 		FAEE26A01D490C8E00C4EE03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE269F1D490C8E00C4EE03 /* ViewController.swift */; };
 		FAEE26A31D490C8E00C4EE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEE26A11D490C8E00C4EE03 /* Main.storyboard */; };
@@ -14,6 +19,10 @@
 		FAEE26A81D490C8E00C4EE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEE26A61D490C8E00C4EE03 /* LaunchScreen.storyboard */; };
 		FAEE26B31D490C8E00C4EE03 /* Controly_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE26B21D490C8E00C4EE03 /* Controly_TestTests.swift */; };
 		FAEE26BE1D490C8E00C4EE03 /* Controly_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE26BD1D490C8E00C4EE03 /* Controly_TestUITests.swift */; };
+		FAEE26D21D490D1900C4EE03 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE26D11D490D1900C4EE03 /* TopView.swift */; };
+		FAEE26D41D4911D600C4EE03 /* TopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEE26D31D4911D600C4EE03 /* TopView.xib */; };
+		FAEE26D81D4921AE00C4EE03 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE26D71D4921AE00C4EE03 /* BottomView.swift */; };
+		FAEE26DA1D4921B800C4EE03 /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEE26D91D4921B800C4EE03 /* BottomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5DF7F421D4D8BF0007709A4 /* BarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarManager.swift; sourceTree = "<group>"; };
+		FA14981A1D4B8425001A7277 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		FA14981C1D4B8430001A7277 /* GraphView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphView.xib; sourceTree = "<group>"; };
+		FA14981E1D4B9284001A7277 /* GraphBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphBarView.swift; sourceTree = "<group>"; };
+		FA1498201D4B93AD001A7277 /* BarObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarObject.swift; sourceTree = "<group>"; };
 		FAEE269A1D490C8E00C4EE03 /* Controly_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controly_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEE269D1D490C8E00C4EE03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAEE269F1D490C8E00C4EE03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,10 @@
 		FAEE26B91D490C8E00C4EE03 /* Controly_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Controly_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEE26BD1D490C8E00C4EE03 /* Controly_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controly_TestUITests.swift; sourceTree = "<group>"; };
 		FAEE26BF1D490C8E00C4EE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEE26D11D490D1900C4EE03 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		FAEE26D31D4911D600C4EE03 /* TopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopView.xib; sourceTree = "<group>"; };
+		FAEE26D71D4921AE00C4EE03 /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		FAEE26D91D4921B800C4EE03 /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5DF7F3E1D4D8B61007709A4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E5DF7F421D4D8BF0007709A4 /* BarManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		FA1498191D4B8403001A7277 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				FA14981A1D4B8425001A7277 /* GraphView.swift */,
+				FA14981E1D4B9284001A7277 /* GraphBarView.swift */,
+				FA14981C1D4B8430001A7277 /* GraphView.xib */,
+			);
+			name = GraphView;
+			sourceTree = "<group>";
+		};
 		FAEE26911D490C8E00C4EE03 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +133,11 @@
 		FAEE269C1D490C8E00C4EE03 /* Controly_Test */ = {
 			isa = PBXGroup;
 			children = (
-				FAEE269D1D490C8E00C4EE03 /* AppDelegate.swift */,
-				FAEE269F1D490C8E00C4EE03 /* ViewController.swift */,
-				FAEE26A11D490C8E00C4EE03 /* Main.storyboard */,
-				FAEE26A41D490C8E00C4EE03 /* Assets.xcassets */,
-				FAEE26A61D490C8E00C4EE03 /* LaunchScreen.storyboard */,
-				FAEE26A91D490C8E00C4EE03 /* Info.plist */,
+				E5DF7F3E1D4D8B61007709A4 /* Manager */,
+				FAEE26CE1D490CBC00C4EE03 /* Objects */,
+				FAEE26CD1D490CB000C4EE03 /* Misc */,
+				FAEE26CC1D490CA800C4EE03 /* AppDelegate */,
+				FAEE26CB1D490C9D00C4EE03 /* MainViewController */,
 			);
 			path = Controly_Test;
 			sourceTree = "<group>";
@@ -123,6 +158,70 @@
 				FAEE26BF1D490C8E00C4EE03 /* Info.plist */,
 			);
 			path = Controly_TestUITests;
+			sourceTree = "<group>";
+		};
+		FAEE26CB1D490C9D00C4EE03 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE26CF1D490CC900C4EE03 /* Subviews */,
+				FAEE269F1D490C8E00C4EE03 /* ViewController.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		FAEE26CC1D490CA800C4EE03 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE269D1D490C8E00C4EE03 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FAEE26CD1D490CB000C4EE03 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE26A11D490C8E00C4EE03 /* Main.storyboard */,
+				FAEE26A41D490C8E00C4EE03 /* Assets.xcassets */,
+				FAEE26A61D490C8E00C4EE03 /* LaunchScreen.storyboard */,
+				FAEE26A91D490C8E00C4EE03 /* Info.plist */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		FAEE26CE1D490CBC00C4EE03 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FA1498201D4B93AD001A7277 /* BarObject.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		FAEE26CF1D490CC900C4EE03 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				FA1498191D4B8403001A7277 /* GraphView */,
+				FAEE26D51D49217900C4EE03 /* TopView */,
+				FAEE26D61D49218300C4EE03 /* BottomView */,
+			);
+			name = Subviews;
+			sourceTree = "<group>";
+		};
+		FAEE26D51D49217900C4EE03 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE26D11D490D1900C4EE03 /* TopView.swift */,
+				FAEE26D31D4911D600C4EE03 /* TopView.xib */,
+			);
+			name = TopView;
+			sourceTree = "<group>";
+		};
+		FAEE26D61D49218300C4EE03 /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE26D71D4921AE00C4EE03 /* BottomView.swift */,
+				FAEE26D91D4921B800C4EE03 /* BottomView.xib */,
+			);
+			name = BottomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +329,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEE26A81D490C8E00C4EE03 /* LaunchScreen.storyboard in Resources */,
+				FA14981D1D4B8430001A7277 /* GraphView.xib in Resources */,
 				FAEE26A51D490C8E00C4EE03 /* Assets.xcassets in Resources */,
+				FAEE26DA1D4921B800C4EE03 /* BottomView.xib in Resources */,
+				FAEE26D41D4911D600C4EE03 /* TopView.xib in Resources */,
 				FAEE26A31D490C8E00C4EE03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEE26A01D490C8E00C4EE03 /* ViewController.swift in Sources */,
+				FAEE26D21D490D1900C4EE03 /* TopView.swift in Sources */,
 				FAEE269E1D490C8E00C4EE03 /* AppDelegate.swift in Sources */,
+				E5DF7F431D4D8BF0007709A4 /* BarManager.swift in Sources */,
+				FAEE26D81D4921AE00C4EE03 /* BottomView.swift in Sources */,
+				FA14981F1D4B9284001A7277 /* GraphBarView.swift in Sources */,
+				FA1498211D4B93AD001A7277 /* BarObject.swift in Sources */,
+				FA14981B1D4B8425001A7277 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +590,7 @@
 				FAEE26C41D490C8E00C4EE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAEE26C51D490C8E00C4EE03 /* Build configuration list for PBXNativeTarget "Controly_TestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +599,7 @@
 				FAEE26C71D490C8E00C4EE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAEE26C81D490C8E00C4EE03 /* Build configuration list for PBXNativeTarget "Controly_TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +608,7 @@
 				FAEE26CA1D490C8E00C4EE03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
